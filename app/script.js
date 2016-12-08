@@ -28,6 +28,27 @@ $('document').ready(function(){
         $('#newTaskForm').slideToggle('fast', 'linear');
     };
 
+    $('#saveNewItem').on('click', function (e) {
+        e.preventionDefault();
+        var task = $('#newItemInput').val().trim();
+        addTask(task);
+    });
+
+    $('#add-todo').on('click', function (){
+        $('#newTaskForm').fadeToggle('fast', 'linear');
+
+    });
+
+    $('#cancel').on('click', function (e) {
+        e.preventDefault();
+        $('#newTaskForm').fadeToggle('fast', 'linear');
+    });
+
+
+
+
+    )
+
 
 
 
