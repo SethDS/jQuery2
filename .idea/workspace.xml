@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed4af512-a4e8-46a7-87ce-a011cf7e0b8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/script.js" afterPath="$PROJECT_DIR$/app/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +23,69 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="890">
+                  <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jQuery2 Example.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jQuery2 Example.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding>
+                      <marker date="1481220109900" expanded="true" signature="1734:1763" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="2535:2575" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="2958:3307" ph="..." />
+                      <marker date="1481220109900" expanded="true" signature="3040:3296" ph="..." />
+                      <marker date="1481220109900" expanded="true" signature="3852:3893" ph="..." />
+                      <marker date="1481220109900" expanded="true" signature="4385:4403" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="4397:4401" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="4707:4770" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="4719:4768" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="5084:5638" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="5096:5636" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="6026:6633" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="6038:6579" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="6813:6907" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="7108:7167" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="7226:7311" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8376:8744" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8458:8725" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8496:8721" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8531:8576" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8616:8659" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="8665:8702" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="9361:9385" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="10697:10789" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="11012:11148" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="11320:11538" ph="{...}" />
+                      <marker date="1481220109900" expanded="true" signature="11868:11933" ph="{...}" />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="340">
+                  <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -41,7 +99,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="0">
+                  <first_editor relative-caret-position="-4320">
                     <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                     <folding>
                       <marker date="1481220109900" expanded="true" signature="1734:1763" ph="{...}" />
@@ -100,9 +158,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1708" />
-    <option name="width" value="2400" />
-    <option name="height" value="1350" />
+    <option name="x" value="1699" />
+    <option name="y" value="-9" />
+    <option name="width" value="2418" />
+    <option name="height" value="1318" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,7 +301,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481220152266</updated>
-      <workItem from="1481220153541" duration="6158000" />
+      <workItem from="1481220153541" duration="7043000" />
     </task>
     <task id="LOCAL-00001" summary="paint project">
       <created>1481229422653</created>
@@ -255,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6158000" />
+    <option name="totallyTimeSpent" value="7043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,10 +326,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1708" y="0" width="2400" height="1350" extended-state="6" />
+    <frame x="1699" y="-9" width="2418" height="1318" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25263602" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25263602" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -326,22 +385,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -378,6 +421,22 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
