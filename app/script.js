@@ -1,8 +1,46 @@
+var listo = [];
+
+window.onload = function(){
+    if(localStorage['storageListo'] !== null){
+        listo = JSON.parse(localStorage['storageListo']);
+    } else {
+        localStorage['storageListo'] = JSON.stringify([]);
+    }
+
+    for(i=0; i<listo.length; i++){
+        if(listo[i].id === "new"){
+            addIn('#newList', listo[i], "item");
+        }
+        else if(listo[i].id === "inProgress"){
+            addIn('#currentList', listo[i], "inProgress");
+        }
+        else if(listo[i].id === "archived"){
+            addIn('#archivedList', listo[i], "archived");
+        }
+
+    }
+
+}
+
+function addIn(element, task, random){
+    $(element).append(
+        '<a href="#finish" class="" id="'+ random +'">' +
+        '<li class="list-group-item">' +
+        '<h3>' + task.task + '</h3>' +
+        '<span class="arrow pull-right">' +
+        '<i class="glyphicon glyphicon-arrow-right">' +
+        '</span>' +
+        '</li>' +
+        '</a>'
+    );
+}
+
+
 $(document).ready(function(){
 
     $('#newTaskForm').hide();
 
-    var listo = [];
+
     var Task = function(task) {
         this.task = task;
         this.id = "new";
@@ -11,7 +49,7 @@ $(document).ready(function(){
     var advanceTask = function(task) {
         var modified = task.innerText.trim()
         for (var i = 0; i < listo.length; i++) {
-            if (listo[i].task === modified) {
+            if (listo[i].task.toUpperCase() === modified) {
                 if (listo[i].id === 'new') {
                     listo[i].id = 'inProgress';
                 } else if (listo[i].id === 'inProgress') {
@@ -30,6 +68,7 @@ $(document).ready(function(){
         var task = this;
         advanceTask(task);
         this.id = 'inProgress';
+        localStorage['storageListo'] = JSON.stringify(listo);
         $('#currentList').append(this.outerHTML);
     });
 
@@ -39,6 +78,7 @@ $(document).ready(function(){
         task.id = "archived";
         var changeIcon = task.outerHTML.replace('glyphicon-arrow-right', 'glyphicon-remove');
         advanceTask(task);
+        localStorage['storageListo'] = JSON.stringify(listo);
         $('#archivedList').append(changeIcon);
 
     });
@@ -47,7 +87,7 @@ $(document).ready(function(){
         e.preventDefault();
         var task = this;
         advanceTask(task);
-
+        localStorage['storageListo'] = JSON.stringify(listo);
     });
 
 
@@ -55,24 +95,17 @@ $(document).ready(function(){
         if(task) {
             task = new Task(task);
             listo.push(task);
-
+            localStorage['storageListo'] = JSON.stringify(listo);
             $('#newItemInput').val('');
+             addIn('#newList', task, "item");
 
-            $('#newList').append(
-                '<a href="#finish" class="" id="item">' +
-                '<li class="list-group-item">' +
-                '<h3>' + task.task + '</h3>' +
-                '<span class="arrow pull-right">' +
-                '<i class="glyphicon glyphicon-arrow-right">' +
-                '</span>' +
-                '</li>' +
-                '</a>'
-            );
 
         }
         $('#newTaskForm').slideToggle('fast', 'linear');
 
     };
+
+
 
 
     $('#saveNewItem').on('click', function (e) {
